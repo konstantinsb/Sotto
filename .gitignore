@@ -1,0 +1,18 @@
+# Сгенерированный проект (создаётся из project.yml через `xcodegen generate`)
+*.xcodeproj
+
+# Сборка
+.build/
+DerivedData/
+build/
+
+# Swift Package Manager
+.swiftpm/
+# Package.resolved коммитим — пинит версии WhisperKit/MLX (воспроизводимая сборка)
+
+# macOS
+.DS_Store
+
+# Xcode пользовательское
+xcuserdata/
+*.xcuserstate

@@ -1,0 +1,21 @@
+<svg width="100%" viewBox="0 0 680 150" role="img" xmlns="http://www.w3.org/2000/svg">
+<title>Компактная капсула статуса Sotto</title>
+<desc>Капсула состояния Sotto при свёрнутом оверлее: пульсирующий статус-дот, «Слушаю», бейдж задержки 640 мс и индикатор «локально».</desc>
+
+<rect x="0" y="0" width="680" height="150" fill="#0A0E1A"/>
+<circle cx="340" cy="75" r="120" fill="#818CF8" opacity="0.05"/>
+<rect x="190" y="53" width="300" height="44" rx="22" fill="#131B2E" stroke="#FFFFFF" stroke-opacity="0.14" stroke-width="1"/>
+
+<circle cx="216" cy="75" r="10" fill="#4ADE80" opacity="0.18"/>
+<circle cx="216" cy="75" r="5" fill="#4ADE80"/>
+<text x="232" y="79" font-family="ui-sans-serif, -apple-system, sans-serif" font-size="13" font-weight="500" fill="#F8FAFC">Слушаю</text>
+
+<line x1="306" y1="64" x2="306" y2="86" stroke="#FFFFFF" stroke-opacity="0.10" stroke-width="1"/>
+<path d="M324 67 L319 76 L323 76 L321 83 L327 73 L323 73 Z" fill="#4ADE80"/>
+<text x="332" y="79" font-family="ui-monospace, monospace" font-size="12" fill="#4ADE80">640 мс</text>
+
+<line x1="406" y1="64" x2="406" y2="86" stroke="#FFFFFF" stroke-opacity="0.10" stroke-width="1"/>
+<rect x="422" y="70" width="11" height="9" rx="2" fill="none" stroke="#94A3B8" stroke-width="1"/>
+<path d="M424.5 70 v-2.5 a3 3 0 0 1 6 0 v2.5" fill="none" stroke="#94A3B8" stroke-width="1"/>
+<text x="440" y="79" font-family="ui-sans-serif, sans-serif" font-size="12" fill="#94A3B8">локально</text>
+</svg>

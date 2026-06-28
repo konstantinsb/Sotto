@@ -1,0 +1,57 @@
+# Спецификация проекта для XcodeGen.
+# Генерация: `xcodegen generate` в корне репозитория.
+# Структуру правим здесь (текстом), .xcodeproj не коммитим.
+name: Sotto
+options:
+  bundleIdPrefix: com.konstantin
+  deploymentTarget:
+    macOS: "15.0"
+  createIntermediateGroups: true
+  groupSortPosition: top
+settings:
+  base:
+    MARKETING_VERSION: "0.1.0"
+    CURRENT_PROJECT_VERSION: "1"
+packages:
+  SottoCore:
+    path: Core
+targets:
+  Sotto:
+    type: application
+    platform: macOS
+    deploymentTarget: "15.0"
+    sources:
+      - path: App
+    dependencies:
+      - package: SottoCore
+        product: SottoCore
+      - package: SottoCore
+        product: SottoWhisper
+      - package: SottoCore
+        product: SottoParakeet
+      - package: SottoCore
+        product: SottoMLX
+    settings:
+      base:
+        PRODUCT_NAME: Sotto
+        PRODUCT_BUNDLE_IDENTIFIER: com.konstantin.sotto
+        INFOPLIST_FILE: Resources/Info.plist
+        GENERATE_INFOPLIST_FILE: NO
+        ENABLE_HARDENED_RUNTIME: NO
+        # Стабильная самоподписанная подпись «Sotto Dev» (keychain sotto-signing):
+        # идентичность билда не меняется между пересборками → TCC-разрешения
+        # (запись экрана и пр.) держатся, а не слетают после каждой сборки.
+        CODE_SIGN_STYLE: Manual
+        CODE_SIGN_IDENTITY: "Sotto Dev"
+        PROVISIONING_PROFILE_SPECIFIER: ""
+        COMBINE_HIDPI_IMAGES: YES
+        # Strict concurrency только для нашего таргета, не для зависимостей.
+        SWIFT_VERSION: "6.0"
+        SWIFT_STRICT_CONCURRENCY: complete
+schemes:
+  Sotto:
+    build:
+      targets:
+        Sotto: all
+    run:
+      config: Debug

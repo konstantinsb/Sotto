@@ -1,0 +1,58 @@
+<svg width="100%" viewBox="0 0 680 420" role="img" xmlns="http://www.w3.org/2000/svg">
+<title>Оверлей-подсказка Sotto поверх живого звонка</title>
+<desc>Тёмная стеклянная панель-подсказка Sotto поверх приглушённого окна звонка: control-bar со статусом «Готово», таймером и бейджем задержки; Q-чип с вопросом, крупная подсказка и транскрипт с цветокодом источников.</desc>
+
+<rect x="0" y="0" width="680" height="420" fill="#0A0E1A"/>
+<circle cx="470" cy="150" r="150" fill="#818CF8" opacity="0.06"/>
+<circle cx="545" cy="255" r="115" fill="#38BDF8" opacity="0.045"/>
+
+<rect x="24" y="40" width="470" height="350" rx="14" fill="#0E1626" stroke="#1C2740" stroke-width="0.5"/>
+<circle cx="46" cy="60" r="3" fill="#334155"/>
+<circle cx="58" cy="60" r="3" fill="#334155"/>
+<circle cx="70" cy="60" r="3" fill="#334155"/>
+<circle cx="150" cy="170" r="46" fill="#1B2538"/>
+<rect x="108" y="234" width="84" height="10" rx="5" fill="#1F2B45"/>
+<rect x="114" y="252" width="72" height="7" rx="3.5" fill="#18202F"/>
+<rect x="108" y="288" width="160" height="8" rx="4" fill="#161F30"/>
+<rect x="108" y="304" width="120" height="8" rx="4" fill="#141C2C"/>
+<rect x="108" y="320" width="172" height="8" rx="4" fill="#161F30"/>
+
+<rect x="300" y="64" width="344" height="232" rx="16" fill="#131B2E" stroke="#FFFFFF" stroke-opacity="0.14" stroke-width="1"/>
+
+<line x1="316" y1="80" x2="327" y2="80" stroke="#64748B" stroke-width="1.4" stroke-linecap="round"/>
+<line x1="316" y1="84" x2="327" y2="84" stroke="#64748B" stroke-width="1.4" stroke-linecap="round"/>
+<line x1="316" y1="88" x2="327" y2="88" stroke="#64748B" stroke-width="1.4" stroke-linecap="round"/>
+<circle cx="342" cy="84" r="8" fill="#4ADE80" opacity="0.18"/>
+<circle cx="342" cy="84" r="4" fill="#4ADE80"/>
+<text x="356" y="88" font-family="ui-sans-serif, -apple-system, sans-serif" font-size="13" font-weight="500" fill="#F8FAFC">Готово</text>
+<circle cx="414" cy="84" r="5" fill="none" stroke="#94A3B8" stroke-width="1"/>
+<line x1="414" y1="84" x2="414" y2="80.5" stroke="#94A3B8" stroke-width="1" stroke-linecap="round"/>
+<line x1="414" y1="84" x2="416.5" y2="84" stroke="#94A3B8" stroke-width="1" stroke-linecap="round"/>
+<text x="424" y="88" font-family="ui-monospace, monospace" font-size="11" fill="#94A3B8">04:12</text>
+<rect x="490" y="74" width="70" height="20" rx="10" fill="#14342A"/>
+<path d="M500 78 L496 85 L499 85 L497 90 L502 83 L499 83 Z" fill="#4ADE80"/>
+<text x="506" y="88" font-family="ui-monospace, monospace" font-size="11" fill="#4ADE80">640 мс</text>
+<rect x="568" y="74" width="14" height="11" rx="2.5" fill="none" stroke="#CBD5E1" stroke-width="1" stroke-dasharray="2.4 2"/>
+<circle cx="582" cy="73" r="1.6" fill="#CBD5E1"/>
+<line x1="601" y1="79" x2="611" y2="89" stroke="#94A3B8" stroke-width="1.4" stroke-linecap="round"/>
+<line x1="611" y1="79" x2="601" y2="89" stroke="#94A3B8" stroke-width="1.4" stroke-linecap="round"/>
+
+<rect x="316" y="110" width="234" height="24" rx="12" fill="#25294D"/>
+<circle cx="330" cy="122" r="6" fill="none" stroke="#A5ABF9" stroke-width="1"/>
+<text x="330" y="125.5" text-anchor="middle" font-family="ui-sans-serif, sans-serif" font-size="9" font-weight="500" fill="#A5ABF9">?</text>
+<text x="342" y="126" font-family="ui-sans-serif, -apple-system, sans-serif" font-size="11" fill="#A5ABF9">Управление памятью в Swift — ARC</text>
+
+<text x="316" y="164" font-family="ui-sans-serif, -apple-system, sans-serif" font-size="15" font-weight="600" fill="#F8FAFC">ARC считает ссылки автоматически.<tspan x="316" dy="22">Ретейн-цикл рвём через weak / unowned,</tspan><tspan x="316" dy="22">для замыканий — [weak self].</tspan></text>
+
+<line x1="316" y1="226" x2="628" y2="226" stroke="#FFFFFF" stroke-opacity="0.08" stroke-width="1"/>
+
+<rect x="316" y="237" width="14" height="9" rx="1.5" fill="none" stroke="#38BDF8" stroke-width="1"/>
+<line x1="323" y1="246" x2="323" y2="249" stroke="#38BDF8" stroke-width="1"/>
+<text x="340" y="247" font-family="ui-sans-serif, -apple-system, sans-serif" font-size="13" fill="#CBD5E1">Как устроено управление памятью?</text>
+
+<rect x="316" y="263" width="2" height="8" rx="1" fill="#34D399"/>
+<rect x="320" y="259" width="2" height="14" rx="1" fill="#34D399"/>
+<rect x="324" y="261" width="2" height="11" rx="1" fill="#34D399"/>
+<rect x="328" y="264" width="2" height="6" rx="1" fill="#34D399"/>
+<text x="340" y="271" font-family="ui-sans-serif, -apple-system, sans-serif" font-size="13" fill="#94A3B8">В Swift это ARC — автоматический…</text>
+</svg>

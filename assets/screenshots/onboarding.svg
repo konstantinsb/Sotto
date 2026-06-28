@@ -1,0 +1,41 @@
+<svg width="100%" viewBox="0 0 680 410" role="img" xmlns="http://www.w3.org/2000/svg">
+<title>Онбординг Sotto</title>
+<desc>Онбординг Sotto: степпер из пяти шагов (разрешения, модели, контекст, приватность, хоткеи); активный шаг «Приватность» показывает, что всё считается на устройстве и в облако по умолчанию ничего не уходит.</desc>
+
+<rect x="0" y="0" width="680" height="410" fill="#0A0E1A"/>
+<circle cx="340" cy="170" r="185" fill="#818CF8" opacity="0.05"/>
+<rect x="110" y="44" width="460" height="334" rx="16" fill="#131B2E" stroke="#FFFFFF" stroke-opacity="0.14" stroke-width="1"/>
+
+<text x="134" y="82" font-family="ui-sans-serif, -apple-system, sans-serif" font-size="17" font-weight="600" fill="#F8FAFC">Добро пожаловать в Sotto</text>
+<text x="134" y="104" font-family="ui-sans-serif, sans-serif" font-size="13" fill="#94A3B8">Настроим за минуту — всё останется на этом маке.</text>
+
+<line x1="158" y1="134" x2="462" y2="134" stroke="#334155" stroke-width="1.5"/>
+<line x1="158" y1="134" x2="386" y2="134" stroke="#34D399" stroke-width="1.5"/>
+<circle cx="158" cy="134" r="12" fill="#34D399"/><path d="M153 134 l3.5 3.5 l6 -7" fill="none" stroke="#0A0E1A" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="234" cy="134" r="12" fill="#34D399"/><path d="M229 134 l3.5 3.5 l6 -7" fill="none" stroke="#0A0E1A" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="310" cy="134" r="12" fill="#34D399"/><path d="M305 134 l3.5 3.5 l6 -7" fill="none" stroke="#0A0E1A" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="386" cy="134" r="12" fill="#818CF8"/><text x="386" y="138" text-anchor="middle" font-family="ui-sans-serif, sans-serif" font-size="12" font-weight="500" fill="#FFFFFF">4</text>
+<circle cx="462" cy="134" r="12" fill="none" stroke="#334155" stroke-width="1.5"/><text x="462" y="138" text-anchor="middle" font-family="ui-sans-serif, sans-serif" font-size="12" fill="#64748B">5</text>
+<text x="158" y="162" text-anchor="middle" font-family="ui-sans-serif, sans-serif" font-size="11" fill="#64748B">Разрешения</text>
+<text x="234" y="162" text-anchor="middle" font-family="ui-sans-serif, sans-serif" font-size="11" fill="#64748B">Модели</text>
+<text x="310" y="162" text-anchor="middle" font-family="ui-sans-serif, sans-serif" font-size="11" fill="#64748B">Контекст</text>
+<text x="386" y="162" text-anchor="middle" font-family="ui-sans-serif, sans-serif" font-size="11" font-weight="500" fill="#CBD5E1">Приватность</text>
+<text x="462" y="162" text-anchor="middle" font-family="ui-sans-serif, sans-serif" font-size="11" fill="#64748B">Хоткеи</text>
+
+<rect x="134" y="182" width="412" height="116" rx="12" fill="#FFFFFF" fill-opacity="0.05"/>
+<rect x="150" y="200" width="11" height="9" rx="2" fill="none" stroke="#818CF8" stroke-width="1"/>
+<path d="M152.5 200 v-2.5 a3 3 0 0 1 6 0 v2.5" fill="none" stroke="#818CF8" stroke-width="1"/>
+<text x="170" y="207" font-family="ui-sans-serif, sans-serif" font-size="13" font-weight="500" fill="#F8FAFC">Приватность · всё считается на устройстве</text>
+<path d="M150 233 l3.5 3.5 l6 -7" fill="none" stroke="#34D399" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="168" y="237" font-family="ui-sans-serif, sans-serif" font-size="13" fill="#CBD5E1">Аудио и расшифровка не покидают мак</text>
+<path d="M150 257 l3.5 3.5 l6 -7" fill="none" stroke="#34D399" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="168" y="261" font-family="ui-sans-serif, sans-serif" font-size="13" fill="#CBD5E1">Подсказки считает локальная модель (MLX)</text>
+<circle cx="153" cy="282" r="2.5" fill="#818CF8"/>
+<text x="168" y="286" font-family="ui-sans-serif, sans-serif" font-size="13" fill="#94A3B8">Облако — опционально, для генерации, вкл. вручную</text>
+
+<rect x="134" y="320" width="104" height="34" rx="12" fill="none" stroke="#FFFFFF" stroke-opacity="0.12" stroke-width="1"/>
+<text x="186" y="341" text-anchor="middle" font-family="ui-sans-serif, sans-serif" font-size="13" fill="#CBD5E1">Назад</text>
+<rect x="442" y="320" width="104" height="34" rx="12" fill="#818CF8"/>
+<text x="482" y="341" text-anchor="middle" font-family="ui-sans-serif, sans-serif" font-size="13" font-weight="500" fill="#FFFFFF">Дальше</text>
+<path d="M506 335 l5 6 l-5 6" fill="none" stroke="#FFFFFF" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
